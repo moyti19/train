@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Banh-Mi', 'Bot Chien', 'Bun', 'Goi-Cuon', 'Pho']
+
+roboflow:
+  workspace: nhh
+  project: vietnamese-food
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nhh/vietnamese-food/dataset/1
